@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="calculator">Calculator</string>
+    <string name="div">/</string>
+    <string name="sub">-</string>
+    <string name="multi">x</string>
+    <string name="enter_second_value">Enter second value</string>
+    <string name="enter_first_value">Enter first value</string>
+    <string name="pluse">+</string>
+</resources>
