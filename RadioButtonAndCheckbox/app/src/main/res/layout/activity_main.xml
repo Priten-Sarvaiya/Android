@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/checked"
+        android:layout_width="122dp"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="199dp"
+        android:layout_marginRight="199dp"
+        android:layout_marginBottom="505dp"
+        android:text="Unchecked"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/course"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="222dp"
+        android:layout_marginRight="222dp"
+        android:layout_marginBottom="356dp">
+
+        <RadioButton
+            android:id="@+id/Bca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bca" />
+
+        <RadioButton
+            android:id="@+id/Mca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mca" />
+
+        <RadioButton
+            android:id="@+id/Bscit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/course"
+            android:text="Bscit"
+            android:layout_alignLeft="@+id/course" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/displayCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="398dp"
+        android:text="Please Select Course"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="179dp"
+        android:layout_marginRight="179dp"
+        android:layout_marginBottom="264dp"
+        android:text="Clear" />
+
+</RelativeLayout>
